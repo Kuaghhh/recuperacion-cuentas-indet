@@ -26,7 +26,7 @@ document.querySelector("form").addEventListener("submit", async function (e) {
     const result = await response.json();
 
     if (response.ok) {
-      alert("✅ Formulario enviado correctamente:\n" + JSON.stringify(result, null, 2));
+      alert("Formulario enviado correctamente");
       document.querySelector("form").reset();
     } else {
       alert(" Error: " + (result.detail || "Error desconocido"));
