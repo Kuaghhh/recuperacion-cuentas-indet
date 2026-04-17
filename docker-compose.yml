@@ -4,6 +4,6 @@ services:
   web:
     image: placeholder:latest  # Se actualizará automáticamente en el despliegue
     ports:
-      - "3004:3004"
+      - "3004:80"
     restart: unless-stopped
     
