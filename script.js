@@ -15,7 +15,7 @@ document.querySelector("form").addEventListener("submit", async function (e) {
   };
 
   try {
-    const response = await fetch("http://localhost:8000/recuperacion", {
+    const response = await fetch("http://37.60.243.4:3002/recuperacion", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
